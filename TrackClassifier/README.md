@@ -22,7 +22,7 @@ Preliminary objectives are based on the use of reconstructed fish paths, where a
 
 ### Available Data
 - 2015 Shelikof, AK 3-mooring Array (3 months, 3h duty-cycle)
-- 2016 Shumagins, AK 3-mooring Arra (5 months, 3h duty-cycle)
+- 2016 Shumagins, AK 3-mooring Array (5 months, 3h duty-cycle)
 - OOI RSN EK60
 
 # Success Criteria
@@ -42,16 +42,21 @@ Success criteria will be based on increased resolution of track identification, 
 - Reporting of methods and findings of application within fisheries acoustics community
 
 # Deliverable Schedule
-
-
+By Academic Quarter
+- Summer 2018
+  - Track import tool is available
+  - Track metric tool is available
+- Fall 2018
+  -  Metric classification tool is available
+- Winter 2019
+  - Training set of expected components is constructed from 2015 and 2017 instrument deployments
 
 # Minimum Products
-1. Extraction of track metrics from path reconstruction (i.e., speed, swim angle, neighbor distances, etc.)
-2. Clustering of reconstructed fish tracks based on track metrics.
-3. Live classification of fish tracks
+The development of python-based tools for:
+1. Extraction of track metrics from reconstructed paths (i.e., speed, swim angle, neighbor distances, etc.)
+2. Component clustering of reconstructed fish tracks based on track metrics
+3. Live estimation of behavior from split-beam data streams
 
 # StakeHolders
 - Users of high-resolution acoustic datasets with varying temporal resolution (moored systems, buoys, node-based systems, stationary vessel observations).
 - Behavioral ecologists working with 3-dimensional data recordings of animal movement.
-
-# Evaluation Criteria

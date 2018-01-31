@@ -33,8 +33,9 @@ Preliminary objectives are based on the use of acoustic single target detections
 - Reporting of methods and findings of application within fisheries acoustics community
 
 # Deliverable Schedule
-
-
+March 1st, 2018: Framework for reading single target detections in python
+May 1st, 2018: Redevelopment of Tracker3D methods in python (basic trajectory reconstruction, spline trajectory)
+September 1st, 2018: Single target detection implementation in python
 
 # Minimum Products
 1.  Porting of common practice single-target detection algorithms to Python
@@ -44,5 +45,3 @@ Preliminary objectives are based on the use of acoustic single target detections
 # StakeHolders
 - Users of high-resolution acoustic datasets with varying temporal resolution (moored systems, buoys, node-based systems, stationary vessel observations).
 - Behavioral ecologists working with 3-dimensional data recordings of animal movement.
-
-# Evaluation Criteria
