@@ -6,7 +6,10 @@ We are working with EK80 multifrequency split-beam systems deployed as upward fa
 
 # Objectives
 - Develop framework for machine learning assisted grouping of fish tracks based on predetermined track and target characteristics.
-- Create readability and data structure for the import and management of reconstructed fish paths (linked single target detections).
+  - Identify necessary machine learning methods for:
+    1. Unsupervised clustering by track metrics
+    2. Supervised/trained classification by behavior
+- Identify appropriate data structure and construct tools for the import and management of reconstructed fish paths (linked single target detections).
 - Produce an open-source toolkit that can be integrated with concurrently developed python-based acoustic data processing suites.
 
 ## Data Description
@@ -43,6 +46,8 @@ Success criteria will be based on increased resolution of track identification, 
 
 # Deliverable Schedule
 By Academic Quarter
+- Spring 2018
+  - Identification of appropriate machine learning algorithm for classification
 - Summer 2018
   - Track import tool is available
   - Track metric tool is available
